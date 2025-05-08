@@ -1,0 +1,12 @@
+{% extends "base.html"%}
+{% block page_content%}
+<div class="blog-post">
+
+    <h2 class="blog-post-title">{{document.title}}</h2>
+    <p class="blog-post-meta">{{document.upload_at}}</p>
+
+    {{text | safe}}
+
+
+</div>
+{% endblock page_content%}
