@@ -8,8 +8,8 @@ import os
 from Tidjani_Daara.settings import MEDIA_ROOT, MISTRAL_API_KEY
 
 # loading model
-# if not os.environ.get("MISTRAL_API_KEY"):
-#   os.environ["MISTRAL_API_KEY"] = getpass.getpass("Enter API key for Mistral AI: ")
+if not os.environ.get("MISTRAL_API_KEY"):
+  os.environ["MISTRAL_API_KEY"] = getpass.getpass("Enter API key for Mistral AI: ")
 
 llm = init_chat_model("mistral-large-latest", model_provider="mistralai")
 
