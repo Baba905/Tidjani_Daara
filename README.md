@@ -6,7 +6,7 @@ It's a project were we gather paper,thesis about Tidjani Soufi path.
 > python3 -m venv env
 > source env/bin/activate (linux)
 > 
-> \env\Scripts\activate (Windows)
+> .\env\Scripts\activate (Windows)
 
 ### Install packages
 > pip install -r requirements.txt
