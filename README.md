@@ -4,7 +4,7 @@ It's a project were we gather paper,thesis about Tidjani Soufi path.
 ## Install application in local
 ### Create and activate a virtual environement
 > python3 -m venv env
-> source env/bin/activate (linux)
+> source env/bin/activate (linux) \n
 > .\env\Scripts\activate (Windows)
 
 ### Install packages
